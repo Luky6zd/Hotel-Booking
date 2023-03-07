@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Forms</title>
+        </head>
+        <body>
+            <!-- FORM - kučice za unos teksta (box) -->
+            <form action="" method="GET">
+                <fieldset> <!-- obrub (kao tabica) -->
+                <!-- placeholder je "zasivljeni tekst" kao hint šta treba napisati u kučice -->
+                <!-- reset očisti formu (kučice) od prijašnjih lozinki i useranamea-->
+                    <legend>This is a form in HTML5</legend>
+                    <label for="username">Username: </label><input id="username" type="text" name="username" placeholder="Username">
+                    <label for="password">Password: </label><input id="password" type="password" name="password" placeholder="Password">
+                    <input type="reset" value="Clear the Form">
+                    <input type="submit" value="Submit the Form">
+                    <!-- Label daje imena kučicama npr.username/password kučice -->
+                </fieldset>
+            </form>
+            <form action="" method="GET">
+                <fieldset>  <!-- razlika izmešu valua i placeholdera -->
+                    <legend>Input values</legend>
+                    <input type="text" name="username" value="Please enter in your username">
+                    <input type="submit">
+                </fieldset>
+                
+            </form>
+        </body>
+    </html>

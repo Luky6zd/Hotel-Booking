@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms,RadioButton,Select</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <!-- radio button - kružić za izabrati da ili ne ili on off (jedna opcija se mora odabrati)-->
+            <!-- checkbox - kockica za odabrat obe opcije, samo 1 ili nijednu opciju -->
+            <!-- select box - "padajući izbornik" sa opcijama za izabrat -->
+            <label for="on">On: </label><input id="on" type="radio" name="onOff" value="on">
+            <label for="off">Off: </label><input id="off" type="radio" name="onOff" value="off">
+            <br>
+            <label for="twitter">Twitter: </label><input id="twitter" type="checkbox" name="twitter" value="yes">
+            <label for="facebook">Facebook: </label><input id="facebook" type="checkbox" name="facebook" value="yes">
+           <br>
+           <select name="country">
+                <option value="US">US</option>
+                <option value="AUS">AUS</option>
+                <option value="UK">UK</option>
+            </select>
+            <input type="submit" value="Submit the form">
+        </form>
+    </body>
+</html>
